@@ -3,6 +3,5 @@ class List < ApplicationRecord
   
   vaildates :title, presence: true
   validates :body, presence :true
-  validates :image, presence :true
   
 end
